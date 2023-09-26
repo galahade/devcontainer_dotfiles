@@ -3,7 +3,8 @@
 #cp ./.gitmessage ~
 #cp ./.gitconfig ~
 
-# replace default .zshrc file
+# replace default .zshrc fi
+rm -f ~/.zshrc
 cp ./.zshrc ~
 # use pre-configured p10k
 cp ./.p10k.zsh ~
